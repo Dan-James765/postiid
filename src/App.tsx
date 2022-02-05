@@ -1,9 +1,11 @@
+import RoutesP from "./routes/RoutesP";
+
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-5xl">test</h1>
-      <h1 className="text-5xl">test</h1>
-    </div>
+    <>
+      {/* <h1>App Component is working!</h1> */}
+      <RoutesP />
+    </>
   );
 }
 
