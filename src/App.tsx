@@ -1,10 +1,10 @@
-import RoutesP from "./routes/RoutesP";
+import AllRoutes from "./routes/AllRoutes";
 
 function App() {
   return (
     <>
       {/* <h1>App Component is working!</h1> */}
-      <RoutesP />
+      <AllRoutes />
     </>
   );
 }
