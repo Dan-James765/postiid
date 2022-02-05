@@ -5,6 +5,7 @@ import LoginPage from "../components/Login-Folder/Login-Page";
 import SignUpPage from "../components/Sign-Up-Folder/SignUpPage";
 import Feed from "../components/Feed-Folder/Feed";
 import Header from "../components/Header-Folder/Header";
+import ProfilePosts from "../components/Posts-Folder/ProfilePosts";
 
 function AllRoutes() {
   return (
@@ -44,6 +45,15 @@ function AllRoutes() {
               <>
                 <Header />
                 <Home />
+              </>
+            }
+          />
+          <Route
+            path="/profileposts"
+            element={
+              <>
+                <Header />
+                <ProfilePosts />
               </>
             }
           />
