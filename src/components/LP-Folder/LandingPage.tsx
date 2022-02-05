@@ -4,12 +4,18 @@ import "./LandingPage.css";
 function LandingPage() {
   return (
     <>
-      <header className=""></header>
+      <header className="shadow-lg py-6 flex justify-center">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png"
+          className="h-8 w-8 max-h-8 max-w-8"
+          alt=""
+        />
+      </header>
       <div className="card">
         <div className="p-4  bg-white rounded-lg border border-gray-200 shadow-md sm:p-6 lg:p-8 dark:bg-gray-800 dark:border-gray-700 w-96 min-w-full">
           <form className="space-y-6" action="#">
             <h3 className="text-xl font-medium text-gray-900 dark:text-white flex justify-center">
-              Sign in to postiid
+              Sign in to postiiD
             </h3>
             <div>
               <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
@@ -19,8 +25,8 @@ function LandingPage() {
                 type="email"
                 name="email"
                 id="email"
-                className="cursor-pointer bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
-                placeholder="name@company.com"
+                className="hover:bg-slate-100 cursor-pointer bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white focus:outline-gray-400"
+                placeholder="name@example.com"
                 required
               />
             </div>
@@ -33,7 +39,7 @@ function LandingPage() {
                 name="password"
                 id="password"
                 placeholder="••••••••"
-                className="cursor-pointer bg-gray-50 border border-gray-30 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                className=" hover:bg-slate-100 cursor-pointer bg-gray-50 border border-gray-30 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white focus:outline-gray-400"
                 required
               />
             </div>
