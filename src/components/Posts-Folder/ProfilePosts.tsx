@@ -1,7 +1,7 @@
 function ProfilePosts() {
   return (
     <>
-      <h1>Thets</h1>
+      <h1>Thetsdsds</h1>
     </>
   );
 }
