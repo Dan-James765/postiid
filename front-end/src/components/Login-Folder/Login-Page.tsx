@@ -1,4 +1,5 @@
 import "./Login-Page.css";
+import { Link } from "react-router-dom";
 
 function LoginPage() {
   return (
@@ -52,12 +53,12 @@ function LoginPage() {
                   </label>
                 </div>
               </div>
-              <a
-                href="#"
+              <Link
                 className="ml-auto text-sm text-blue-700 hover:underline dark:text-blue-500"
+                to="/"
               >
                 Forgot Password?
-              </a>
+              </Link>
             </div>
             <button
               type="submit"
