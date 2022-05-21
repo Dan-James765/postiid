@@ -1,11 +1,10 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "../components/Home-Folder/Home";
-import ErrorPage from "../components/ErrorPage-Folder/ErrorPage";
-import LoginPage from "../components/Login-Folder/Login-Page";
-import SignUpPage from "../components/Sign-Up-Folder/SignUpPage";
-import Feed from "../components/Feed-Folder/Feed";
-import Header from "../components/Header-Folder/Header";
-import ProfilePosts from "../components/Posts-Folder/ProfilePosts";
+import ErrorPage from "../components/Login-SignUpFolders/ErrorPage-Folder/ErrorPage";
+import LoginPage from "../components/Login-SignUpFolders/Login-Folder/Login-Page";
+import SignUpPage from "../components/Login-SignUpFolders/Sign-Up-Folder/SignUpPage";
+import Feed from "../components/Feeds-Folder/FeedMain-Folder/Feed";
+import Header from "../components/Headers-Folder/Header";
 
 function AllRoutes() {
   return (
@@ -48,15 +47,7 @@ function AllRoutes() {
               </>
             }
           />
-          <Route
-            path="/profileposts"
-            element={
-              <>
-                <Header />
-                <ProfilePosts />
-              </>
-            }
-          />
+
           <Route
             path="*"
             element={

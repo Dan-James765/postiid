@@ -1,15 +1,25 @@
-import "./Login-Page.css";
-import { Link } from "react-router-dom";
-
-function LoginPage() {
+function SignUpPage() {
   return (
     <>
-      <div className="card">
-        <div className="p-4  bg-white rounded-lg border border-gray-200 shadow-md sm:p-6 lg:p-8 dark:bg-gray-800 dark:border-gray-700 w-96 min-w-full">
+      <div className="flex justify-center 2xl:pt-10 xl:pt-10 lg:pt-6 xs:pt-10 ">
+        <div className="2xl:w-96 xl:w-96 lg:w-96 sm:p-6  ">
           <form className="space-y-6" action="#">
             <h3 className="text-xl font-medium text-gray-900 dark:text-white flex justify-center">
-              Login to postiiD
+              Sign Up for postiiD
             </h3>
+            <div>
+              <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                Your username
+              </label>
+              <input
+                type="text"
+                name="text"
+                id="text"
+                className="hover:bg-slate-100 cursor-pointer bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white focus:outline-gray-400"
+                placeholder="joebloggs123"
+                required
+              />
+            </div>
             <div>
               <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
                 Your email
@@ -53,26 +63,20 @@ function LoginPage() {
                   </label>
                 </div>
               </div>
-              <Link
-                className="ml-auto text-sm text-blue-700 hover:underline dark:text-blue-500"
-                to="/"
-              >
-                Forgot Password?
-              </Link>
             </div>
             <button
               type="submit"
               className="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
-              Login to your account
+              Create your account
             </button>
             <div className="text-sm font-medium text-gray-500 dark:text-gray-300">
-              Not registered?{" "}
+              Already registered?{" "}
               <a
-                href="/sign-up"
+                href="/login"
                 className="text-blue-700 hover:underline dark:text-blue-500"
               >
-                Create account
+                Login here
               </a>
             </div>
           </form>
@@ -82,4 +86,4 @@ function LoginPage() {
   );
 }
 
-export default LoginPage;
+export default SignUpPage;
