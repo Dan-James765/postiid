@@ -5,6 +5,7 @@ import LoginPage from "../components/Login-SignUpFolders/Login-Folder/Login-Page
 import SignUpPage from "../components/Login-SignUpFolders/Sign-Up-Folder/SignUpPage";
 import Feed from "../components/Feeds-Folder/FeedMain-Folder/Feed";
 import Header from "../components/Headers-Folder/Header";
+import HeaderPostLogin from "../components/Headers-Folder/HeaderPostLogin";
 
 function AllRoutes() {
   return (
@@ -33,7 +34,7 @@ function AllRoutes() {
             path="/feed"
             element={
               <>
-                <Header />
+                <HeaderPostLogin />
                 <Feed />
               </>
             }
