@@ -1,88 +1,10 @@
+import FeedSideBar from "../Feed-SideBar/FeedSideBar";
+
 function Feed() {
   return (
     <>
-      <div className="">
-        <h1>test</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
-        <h1>yests</h1>
+      <div className="mr-auto">
+        <FeedSideBar />
       </div>
     </>
   );

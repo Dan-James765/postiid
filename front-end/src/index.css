@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .feedsidebaricons {
+    @apply 2xl:text-3xl xl:text-3xl lg:text-2xl md:text-2xl sm:text-lg xs:text-base cursor-pointer rounded-md my-2;
+  }
+}
