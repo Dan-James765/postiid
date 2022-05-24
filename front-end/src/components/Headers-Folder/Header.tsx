@@ -7,7 +7,7 @@ function Header() {
         <Fade>
           <Link to="/feed">
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png"
+              src="https://cdn-static.findly.com/wp-content/uploads/sites/11/2015/02/CareersSite_FeaturedImage_Home_640x480.jpg"
               className="h-6 w-6 xl:h-8 xl:w-8 2xl:h-8 2xl:w-8 rounded-full"
               alt=""
             />

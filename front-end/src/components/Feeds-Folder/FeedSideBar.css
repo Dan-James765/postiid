@@ -1,0 +1,5 @@
+.feedsidebar__container {
+  position: sticky;
+  top: 80px;
+  flex: 0.3;
+}
