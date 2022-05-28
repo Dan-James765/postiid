@@ -25,6 +25,22 @@ function FeedMain() {
               img={post.img}
               caption={post.caption}
             />
+            <FeedPost
+              key={post.id}
+              id={post.id}
+              username={post.username}
+              userImg={post.userImg}
+              img={post.img}
+              caption={post.caption}
+            />
+            <FeedPost
+              key={post.id}
+              id={post.id}
+              username={post.username}
+              userImg={post.userImg}
+              img={post.img}
+              caption={post.caption}
+            />
           </>
         ))}
       </div>

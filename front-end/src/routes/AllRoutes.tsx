@@ -46,6 +46,14 @@ function AllRoutes() {
               </>
             }
           />
+          <Route
+            path="/tinder"
+            element={
+              <>
+                <Header />
+              </>
+            }
+          />
 
           <Route
             path="*"

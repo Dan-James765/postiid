@@ -1,3 +1,5 @@
+import { AiOutlineHeart } from "react-icons/ai";
+
 function FeedPost({
   key,
   id,
@@ -15,14 +17,15 @@ function FeedPost({
 }) {
   return (
     <>
-      <div className="flex flex-col items-center ">
-        <div className="">
+      <div className="flex flex-col items-center my-4">
+        <div className="border bg-slate-50">
           <img src={img} className="object-cover feedimageresponsive " alt="" />
           <div className="flex items-center justify-center gap-x-2 bg-slate-50 xl:w-96  lg:w-80 md:w-56 sm:w-56 xs:w-52 py-1 border-b-[1px] border-gray-300">
+            <AiOutlineHeart className="cursor-pointer hover:text-red-600 transition ease-in-out delay-110" />
             <img
               src={userImg}
               alt=""
-              className=" cursor-pointer rounded-full h-6 w-6 object-contain"
+              className="cursor-pointer rounded-full h-6 w-6 object-contain my-1"
             />
             <p className="text-xs font-light">{username}</p>
           </div>

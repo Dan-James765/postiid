@@ -2,7 +2,9 @@ import { BiHome } from "react-icons/bi";
 import { MdPeopleOutline } from "react-icons/md";
 import { MdOutlineEmail } from "react-icons/md";
 import { MdSettings } from "react-icons/md";
+import { SiTinder } from "react-icons/si";
 import "./FeedSideBar.css";
+import { Link } from "react-router-dom";
 
 function FeedSideBar() {
   return (
@@ -14,6 +16,9 @@ function FeedSideBar() {
             alt=""
             className="my-6 cursor-pointer rounded-full h-8 w-8 object-contain"
           />
+          <Link to="/tinder">
+            <SiTinder className="feedsidebaricons transition ease-in-out delay-110 hover:text-blue-700" />
+          </Link>
           <BiHome className="feedsidebaricons transition ease-in-out delay-110  hover:text-blue-700" />
           <MdPeopleOutline className="feedsidebaricons transition ease-in-out delay-110 hover:text-blue-700 " />
           <MdOutlineEmail className="feedsidebaricons transition ease-in-out delay-110 hover:text-blue-700" />
