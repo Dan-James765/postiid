@@ -3,20 +3,22 @@ import { MdPeopleOutline } from "react-icons/md";
 import { MdOutlineEmail } from "react-icons/md";
 import { MdSettings } from "react-icons/md";
 import { SiTinder } from "react-icons/si";
-import "./FeedSideBar.css";
 import { Link } from "react-router-dom";
+import "./FeedSideBar.css";
 
 function FeedSideBar() {
   return (
     <>
       <div className="feedsidebar__container border-r-[1px] border-gray-300 h-screen">
         <div className="flex flex-col items-center">
-          <img
-            src="https://scontent.flhr10-2.fna.fbcdn.net/v/t1.6435-9/38781010_2579432842082139_3002868557282279424_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=BkNBapH4l_wAX_BzsPu&_nc_ht=scontent.flhr10-2.fna&oh=00_AT_r8ccQrXBvPEX1HplPpWNbBgaMIYgIDSIOcEqWr_BEeg&oe=62AFA354"
-            alt=""
-            className="my-6 cursor-pointer rounded-full h-8 w-8 object-contain"
-          />
-          <Link to="/tinder">
+          <Link to="/login">
+            <img
+              src="https://scontent.flhr10-2.fna.fbcdn.net/v/t1.6435-9/38781010_2579432842082139_3002868557282279424_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=BkNBapH4l_wAX_BzsPu&_nc_ht=scontent.flhr10-2.fna&oh=00_AT_r8ccQrXBvPEX1HplPpWNbBgaMIYgIDSIOcEqWr_BEeg&oe=62AFA354"
+              alt=""
+              className="my-6 cursor-pointer rounded-full h-8 w-8 object-contain"
+            />
+          </Link>
+          <Link to="/dating-login">
             <SiTinder className="feedsidebaricons transition ease-in-out delay-110 hover:text-blue-700" />
           </Link>
           <BiHome className="feedsidebaricons transition ease-in-out delay-110  hover:text-blue-700" />

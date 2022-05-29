@@ -5,6 +5,7 @@ import LoginPage from "../components/Login-SignUpFolders/Login-Folder/Login-Page
 import SignUpPage from "../components/Login-SignUpFolders/Sign-Up-Folder/SignUpPage";
 import FeedContainer from "../components/Feeds-Folder/FeedContainer";
 import Header from "../components/Headers-Folder/Header";
+import DatingLogin from "../components/Dating-Folder/DatingLogin";
 
 function AllRoutes() {
   return (
@@ -47,10 +48,11 @@ function AllRoutes() {
             }
           />
           <Route
-            path="/tinder"
+            path="/dating-login"
             element={
               <>
                 <Header />
+                <DatingLogin />
               </>
             }
           />
