@@ -18,7 +18,7 @@ function FeedSideBar() {
               className="my-6 cursor-pointer rounded-full h-8 w-8 object-contain"
             />
           </Link>
-          <Link to="/dating-login">
+          <Link to="/dating/registration">
             <SiTinder className="feedsidebaricons transition ease-in-out delay-110 hover:text-blue-700" />
           </Link>
           <BiHome className="feedsidebaricons transition ease-in-out delay-110  hover:text-blue-700" />

@@ -6,6 +6,7 @@ import SignUpPage from "../components/Login-SignUpFolders/Sign-Up-Folder/SignUpP
 import FeedContainer from "../components/Feeds-Folder/FeedContainer";
 import Header from "../components/Headers-Folder/Header";
 import DatingLogin from "../components/Dating-Folder/DatingLogin";
+import DatingAboutMe from "../components/Dating-Folder/DatingAboutMe";
 
 function AllRoutes() {
   return (
@@ -48,7 +49,7 @@ function AllRoutes() {
             }
           />
           <Route
-            path="/dating-login"
+            path="/dating/registration"
             element={
               <>
                 <Header />
@@ -56,7 +57,15 @@ function AllRoutes() {
               </>
             }
           />
-
+          <Route
+            path="/dating/registration/about-me"
+            element={
+              <>
+                <Header />
+                <DatingAboutMe />
+              </>
+            }
+          />
           <Route
             path="*"
             element={

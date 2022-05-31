@@ -17,7 +17,7 @@ function SignUpPage() {
                 id="text"
                 className="hover:bg-slate-100 cursor-pointer bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white focus:outline-gray-400"
                 placeholder="joebloggs123"
-                required
+                required={true}
               />
             </div>
             <div>
@@ -30,7 +30,7 @@ function SignUpPage() {
                 id="email"
                 className="hover:bg-slate-100 cursor-pointer bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white focus:outline-gray-400"
                 placeholder="name@example.com"
-                required
+                required={true}
               />
             </div>
             <div>
@@ -43,7 +43,7 @@ function SignUpPage() {
                 id="password"
                 placeholder="••••••••"
                 className=" hover:bg-slate-100 cursor-pointer bg-gray-50 border border-gray-30 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white focus:outline-gray-400"
-                required
+                required={true}
               />
             </div>
             <div className="flex items-start">
@@ -54,7 +54,7 @@ function SignUpPage() {
                     aria-describedby="remember"
                     type="checkbox"
                     className="w-4 h-4 bg-gray-50 rounded border border-gray-300 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800"
-                    required
+                    required={true}
                   />
                 </div>
                 <div className="ml-3 text-sm">
