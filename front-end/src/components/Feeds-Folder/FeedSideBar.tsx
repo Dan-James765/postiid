@@ -4,6 +4,7 @@ import { MdOutlineEmail } from "react-icons/md";
 import { MdSettings } from "react-icons/md";
 import { SiTinder } from "react-icons/si";
 import { Link } from "react-router-dom";
+
 import "./FeedSideBar.css";
 
 function FeedSideBar() {

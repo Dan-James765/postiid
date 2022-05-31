@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "../components/Home-Folder/Home";
 import ErrorPage from "../components/Login-SignUpFolders/ErrorPage-Folder/ErrorPage";
 import LoginPage from "../components/Login-SignUpFolders/Login-Folder/Login-Page";
 import SignUpPage from "../components/Login-SignUpFolders/Sign-Up-Folder/SignUpPage";
@@ -7,6 +6,7 @@ import FeedContainer from "../components/Feeds-Folder/FeedContainer";
 import Header from "../components/Headers-Folder/Header";
 import DatingLogin from "../components/Dating-Folder/DatingLogin";
 import DatingAboutMe from "../components/Dating-Folder/DatingAboutMe";
+import DatingMainContainer from "../components/Dating-Folder/DatingMainContainer";
 
 function AllRoutes() {
   return (
@@ -39,15 +39,7 @@ function AllRoutes() {
               </>
             }
           />
-          <Route
-            path="/"
-            element={
-              <>
-                <Header />
-                <Home />
-              </>
-            }
-          />
+
           <Route
             path="/dating/registration"
             element={
@@ -63,6 +55,14 @@ function AllRoutes() {
               <>
                 <Header />
                 <DatingAboutMe />
+              </>
+            }
+          />
+          <Route
+            path="/dating/main"
+            element={
+              <>
+                <DatingMainContainer />
               </>
             }
           />
