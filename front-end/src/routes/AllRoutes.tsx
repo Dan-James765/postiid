@@ -7,6 +7,7 @@ import Header from "../components/Headers-Folder/Header";
 import DatingLogin from "../components/Dating-Folder/DatingLogin";
 import DatingAboutMe from "../components/Dating-Folder/DatingAboutMe";
 import DatingMainContainer from "../components/Dating-Folder/DatingMainContainer";
+import DatingAboutPostiid from "../components/Dating-Folder/DatingAboutPostiid";
 
 function AllRoutes() {
   return (
@@ -55,6 +56,15 @@ function AllRoutes() {
               <>
                 <Header />
                 <DatingAboutMe />
+              </>
+            }
+          />
+          <Route
+            path="/dating/registration/about-postiid"
+            element={
+              <>
+                <Header />
+                <DatingAboutPostiid />
               </>
             }
           />
