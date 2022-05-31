@@ -1,5 +1,3 @@
-import React from "react";
-
 function DatingLogin() {
   return (
     <>
@@ -29,6 +27,9 @@ function DatingLogin() {
                 placeholder="18+"
                 required
               />
+              <h1 className="font-light text-gray-500 text-sm">
+                You must be at least 18 years old to use postiiD dating{" "}
+              </h1>
               <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
                 Gender
               </label>
@@ -67,7 +68,7 @@ function DatingLogin() {
               </button>
 
               <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                Show Me
+                Age Range
               </label>
             </form>
           </div>
