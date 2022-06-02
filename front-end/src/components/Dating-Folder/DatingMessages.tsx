@@ -18,11 +18,11 @@ function DatingMessages({
             alt=""
             className="cursor-pointer rounded-full h-8 w-8 object-contain border border-gray-300 "
           />
-          <h1 className="hidden cursor-pointer md:block text-xs 2xl:font-normal xl:font-normal lg:font-medium lg:text-xs">
+          <h1 className="hidden cursor-pointer lg:block text-xs 2xl:font-normal xl:font-normal lg:font-medium lg:text-xs">
             {username}
           </h1>
         </div>
-        <h1 className="flex-col hidden md:block lg:text-xs text-xs text-gray-400 font-normal truncate">
+        <h1 className="flex-col hidden lg:block lg:text-xs text-xs text-gray-400 font-normal truncate">
           {message}
         </h1>
       </div>

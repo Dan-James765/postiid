@@ -82,7 +82,7 @@ function DatingMainSideBar() {
                     className="my-6 cursor-pointer rounded-full h-8 w-8 object-contain"
                   />
                 </Link>
-                <h1 className="hidden md:block font-semibold">
+                <h1 className="hidden lg:block font-semibold">
                   {mapper.username}
                 </h1>
               </div>
@@ -101,7 +101,7 @@ function DatingMainSideBar() {
             </>
           ))}
         </div>
-        <div className="2xl:flex 2xl:flex-col 2xl:items-center 2xl:pt-14 xl:flex xl:flex-col xl:items-center xl:pt-14 lg:pt-1 xs:pt-8 xs:flex xs:items-center xs:justify-around">
+        <div className="2xl:flex 2xl:flex-col 2xl:items-center 2xl:pt-14 xl:flex xl:flex-col xl:items-center xl:pt-14 lg:pt-1 md:pt-8 sm:pt-8 xs:pt-8 xs:flex xs:items-center xs:justify-around">
           <MdSettings className="feedsidebaricons transition ease-in-out delay-110 hover:text-blue-700" />
           <MdOutlineEmail className="feedsidebaricons transition ease-in-out delay-110 hover:text-blue-700" />
           <Link to="/feed">
