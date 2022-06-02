@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function ErrorPage() {
   return (
     <>
-      <div className="flex justify-center items-center font-semibold 2xl:pt-52 xl:pt-52 lg:pt-40">
+      <div className="flex justify-center items-center font-semibold 2xl:pt-52 xl:pt-52 lg:pt-40 md:pt-32 sm:pt-32 xs:pt-32">
         <p>Ran straight into a wall, let's get you back on track!</p>
       </div>
       <div className="flex justify-center items-center pt-6">

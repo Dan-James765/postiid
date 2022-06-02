@@ -1,6 +1,9 @@
 import "./DatingMainSideBar.css";
-import { Link } from "react-router-dom";
 import DatingMessages from "./DatingMessages";
+import { MdSettings } from "react-icons/md";
+import { MdOutlineEmail } from "react-icons/md";
+import { BiHome } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 function DatingMainSideBar() {
   const posts = [
@@ -23,6 +26,46 @@ function DatingMainSideBar() {
       message:
         "Want to let a lightskin slide in, I will pay for the 1st round!askljaskljkasklasjklaskljklasjklasjkljaskljaskljaskljklasjklasjklasjklasjlasjljaskljaskljaskl",
     },
+    {
+      id: "12323441",
+      username: "Yass Sharif",
+      userImg:
+        "https://media-exp1.licdn.com/dms/image/C4D03AQFmfveAN-dwyg/profile-displayphoto-shrink_800_800/0/1644864190655?e=1659571200&v=beta&t=HPs5XvQPSKgrPUmsonJwba85mtskJAUWH3PdE1sgNTA",
+      message:
+        "This is some dummy text, right here, which is supposed to be a message!",
+    },
+    {
+      id: "1232344",
+      username: "Eddie Hutton",
+      userImg:
+        "https://media-exp1.licdn.com/dms/image/C4D03AQE2PGxurF3s_A/profile-displayphoto-shrink_800_800/0/1628443314814?e=1659571200&v=beta&t=zkm7slmVohyuUk3uNv0KFefsiZpPK-lT0S8UIgIzWPI",
+      message:
+        "Want to let a lightskin slide in, I will pay for the 1st round!askljaskljkasklasjklaskljklasjklasjkljaskljaskljaskljklasjklasjklasjklasjlasjljaskljaskljaskl",
+    },
+    {
+      id: "12323441",
+      username: "Yass Sharif",
+      userImg:
+        "https://media-exp1.licdn.com/dms/image/C4D03AQFmfveAN-dwyg/profile-displayphoto-shrink_800_800/0/1644864190655?e=1659571200&v=beta&t=HPs5XvQPSKgrPUmsonJwba85mtskJAUWH3PdE1sgNTA",
+      message:
+        "This is some dummy text, right here, which is supposed to be a message!",
+    },
+    {
+      id: "1232344",
+      username: "Eddie Hutton",
+      userImg:
+        "https://media-exp1.licdn.com/dms/image/C4D03AQE2PGxurF3s_A/profile-displayphoto-shrink_800_800/0/1628443314814?e=1659571200&v=beta&t=zkm7slmVohyuUk3uNv0KFefsiZpPK-lT0S8UIgIzWPI",
+      message:
+        "Want to let a lightskin slide in, I will pay for the 1st round!askljaskljkasklasjklaskljklasjklasjkljaskljaskljaskljklasjklasjklasjklasjlasjljaskljaskljaskl",
+    },
+    {
+      id: "12323441",
+      username: "Yass Sharif",
+      userImg:
+        "https://media-exp1.licdn.com/dms/image/C4D03AQFmfveAN-dwyg/profile-displayphoto-shrink_800_800/0/1644864190655?e=1659571200&v=beta&t=HPs5XvQPSKgrPUmsonJwba85mtskJAUWH3PdE1sgNTA",
+      message:
+        "This is some dummy text, right here, which is supposed to be a message!",
+    },
   ];
 
   return (
@@ -32,7 +75,7 @@ function DatingMainSideBar() {
           {posts.map((mapper) => (
             <>
               <div className="flex items-center md:flex md:justify-center sm:flex sm:justify-center xs:flex xs:justify-center gap-x-2 pl-1">
-                <Link to="/feed">
+                <Link to="/dating-profile">
                   <img
                     src={mapper.userImg}
                     alt=""
@@ -47,14 +90,8 @@ function DatingMainSideBar() {
           ))}
         </div>
         <div>
-          {messages.map((mapper) => (
+          {messages.slice(0, 5).map((mapper) => (
             <>
-              <DatingMessages
-                id={mapper.id}
-                username={mapper.username}
-                userImg={mapper.userImg}
-                message={mapper.message}
-              />
               <DatingMessages
                 id={mapper.id}
                 username={mapper.username}
@@ -63,6 +100,13 @@ function DatingMainSideBar() {
               />
             </>
           ))}
+        </div>
+        <div className="2xl:flex 2xl:flex-col 2xl:items-center 2xl:pt-14 xl:flex xl:flex-col xl:items-center xl:pt-14 lg:pt-1 xs:pt-8 xs:flex xs:items-center xs:justify-around">
+          <MdSettings className="feedsidebaricons transition ease-in-out delay-110 hover:text-blue-700" />
+          <MdOutlineEmail className="feedsidebaricons transition ease-in-out delay-110 hover:text-blue-700" />
+          <Link to="/feed">
+            <BiHome className="feedsidebaricons transition ease-in-out delay-110  hover:text-blue-700" />
+          </Link>
         </div>
         <div className="inset-x-0 bottom-0 flex absolute justify-center pb-3">
           <h3 className="text-sm font-medium text-gray-900 dark:text-white ">

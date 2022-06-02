@@ -11,7 +11,7 @@ function DatingMessages({
 }) {
   return (
     <>
-      <div className="bg-gray-50 border-slate-100 border-[1px] h-auto hover:bg-gray-100 cursor-pointer">
+      <div className="bg-gray-50 bg-opacity-10 border-slate-100 border-[1px] h-auto hover:bg-gray-100 cursor-pointer">
         <div className="flex items-center gap-x-1 py-1 2xl:justify-start xl:justify-start lg:justify-start xs:justify-center">
           <img
             src={userImg}
