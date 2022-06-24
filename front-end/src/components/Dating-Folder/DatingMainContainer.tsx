@@ -1,12 +1,12 @@
 import DatingMainSideBar from "./DatingMainSideBar";
-import DatingMainSwipe from "./DatingMainSwipe";
+import DatingMainBody from "./DatingMainBody";
 
 function DatingMainContainer() {
   return (
     <>
       <section className="flex">
         <DatingMainSideBar />
-        <DatingMainSwipe />
+        <DatingMainBody />
       </section>
     </>
   );
