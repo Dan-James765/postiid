@@ -1,3 +1,5 @@
+import { AiOutlineStar } from "react-icons/ai";
+
 function DatingMessages({
   id,
   username,
@@ -21,6 +23,7 @@ function DatingMessages({
           <h1 className="hidden cursor-pointer lg:block text-xs 2xl:font-normal xl:font-normal lg:font-medium lg:text-xs">
             {username}
           </h1>
+          <AiOutlineStar className="hidden lg:block lg:ml-auto hover:text-yellow-500" />
         </div>
         <h1 className="flex-col hidden lg:block lg:text-xs text-xs text-gray-400 font-normal truncate">
           {message}

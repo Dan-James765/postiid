@@ -14,7 +14,7 @@ function FeedSideBar() {
         <div className="flex flex-col items-center">
           <Link to="/login">
             <img
-              src="https://scontent.flhr10-2.fna.fbcdn.net/v/t1.6435-9/38781010_2579432842082139_3002868557282279424_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=BkNBapH4l_wAX_BzsPu&_nc_ht=scontent.flhr10-2.fna&oh=00_AT_r8ccQrXBvPEX1HplPpWNbBgaMIYgIDSIOcEqWr_BEeg&oe=62AFA354"
+              src="https://scontent.flhr10-2.fna.fbcdn.net/v/t1.6435-9/38781010_2579432842082139_3002868557282279424_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=7Gxm0yoiLjkAX_7wlNf&_nc_ht=scontent.flhr10-2.fna&oh=00_AT-UB_J8BdF_Mzo9MyqmJis7SyjZGr7u7IY13Op9MccHSw&oe=62DB24D4"
               alt=""
               className="my-6 cursor-pointer rounded-full h-8 w-8 object-contain"
             />
