@@ -4,7 +4,7 @@ import "./DatingMainBody.css";
 function DatingMainBody() {
   return (
     <>
-      <div>
+      <div className="datingmainbody__container">
         <DatingCard />
       </div>
     </>

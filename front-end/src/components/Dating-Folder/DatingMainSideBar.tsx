@@ -31,8 +31,7 @@ function DatingMainSideBar() {
       username: "Yass Sharif",
       userImg:
         "https://media-exp1.licdn.com/dms/image/C4D03AQFmfveAN-dwyg/profile-displayphoto-shrink_800_800/0/1644864190655?e=1659571200&v=beta&t=HPs5XvQPSKgrPUmsonJwba85mtskJAUWH3PdE1sgNTA",
-      message:
-        "This is some dummy text, right here, which is supposed to be a message!",
+      message: "I'll fly you to Paris bruh",
     },
     {
       id: "1232344",
@@ -47,8 +46,7 @@ function DatingMainSideBar() {
       username: "Yass Sharif",
       userImg:
         "https://media-exp1.licdn.com/dms/image/C4D03AQFmfveAN-dwyg/profile-displayphoto-shrink_800_800/0/1644864190655?e=1659571200&v=beta&t=HPs5XvQPSKgrPUmsonJwba85mtskJAUWH3PdE1sgNTA",
-      message:
-        "This is some dummy text, right here, which is supposed to be a message!",
+      message: "Habibi!!!",
     },
     {
       id: "1232344",
@@ -89,6 +87,7 @@ function DatingMainSideBar() {
             </>
           ))}
         </div>
+
         <div>
           {messages.slice(0, 5).map((mapper) => (
             <>
@@ -101,7 +100,7 @@ function DatingMainSideBar() {
             </>
           ))}
         </div>
-        <div className="2xl:flex 2xl:flex-col 2xl:items-center 2xl:pt-14 xl:flex xl:flex-col xl:items-center xl:pt-14 lg:pt-1 md:pt-8 sm:pt-8 xs:pt-8 xs:flex xs:items-center xs:justify-around">
+        <div className="2xl:flex 2xl:flex-col 2xl:items-center 2xl:pt-14 xl:flex xl:flex-col xl:items-center xl:pt-14 lg:pt-4 md:pt-8 sm:pt-10 xs:pt-10 xs:flex xs:items-center xs:justify-around">
           <MdSettings className="feedsidebaricons transition ease-in-out delay-110 hover:text-blue-700" />
           <MdOutlineEmail className="feedsidebaricons transition ease-in-out delay-110 hover:text-blue-700" />
           <Link to="/feed">
@@ -109,7 +108,7 @@ function DatingMainSideBar() {
           </Link>
         </div>
         <div className="inset-x-0 bottom-0 flex absolute justify-center pb-3">
-          <h3 className="text-sm font-medium text-gray-900 dark:text-white ">
+          <h3 className="hidden xl:block text-sm font-medium text-gray-900 dark:text-white ">
             postiiD
           </h3>
         </div>
