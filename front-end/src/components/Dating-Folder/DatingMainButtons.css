@@ -1,0 +1,32 @@
+@media (min-width: 475px) {
+  .swipeButtonsXS {
+    bottom: 11vh;
+    gap: 15px;
+  }
+}
+@media (min-width: 640px) {
+  .swipeButtonsSM {
+    bottom: 11vh;
+    gap: 15px;
+  }
+}
+@media (min-width: 768px) {
+  .swipeButtonsMD {
+    bottom: 11vh;
+    gap: 15px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .swipeButtonsLG {
+    bottom: 4vh;
+    gap: 15px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .swipeButtonsXL {
+    bottom: 31vh;
+    gap: 15px;
+  }
+}
