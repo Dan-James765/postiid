@@ -106,7 +106,7 @@ function DatingMainSideBar() {
             <BiHome className="feedsidebaricons transition ease-in-out delay-110  hover:text-blue-700" />
           </Link>
           <BsPeople className="feedsidebaricons transition ease-in-out delay-110  hover:text-blue-700" />
-          <MdOutlineEmail className="feedsidebaricons transition ease-in-out delay-110 hover:text-blue-700" />
+          <MdOutlineEmail className="feedsidebaricons transition ease-in-out delay-110  hover:text-blue-700" />
           <MdSettings className="feedsidebaricons transition ease-in-out delay-110 hover:text-blue-700" />
         </div>
         <div className="inset-x-0 bottom-0 flex absolute justify-center pb-3">
