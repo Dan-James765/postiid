@@ -1,5 +1,6 @@
 import { useState } from "react";
 import TinderCard from "react-tinder-card";
+import DatingMainButtons from "./DatingMainButtons";
 
 function DatingCard() {
   const [people, setPeople] = useState([
@@ -34,7 +35,7 @@ function DatingCard() {
 
   return (
     <>
-      <div className="flex justify-center pt-10">
+      <div className="flex justify-center pt-10 xl:pt-32">
         {people.map((mapper) => (
           <>
             <TinderCard
@@ -53,6 +54,7 @@ function DatingCard() {
             </TinderCard>
           </>
         ))}
+        <DatingMainButtons />
       </div>
     </>
   );

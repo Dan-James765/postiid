@@ -3,6 +3,7 @@ import DatingMessages from "./DatingMessages";
 import { MdSettings } from "react-icons/md";
 import { MdOutlineEmail } from "react-icons/md";
 import { BiHome } from "react-icons/bi";
+import { BsPeople } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
 function DatingMainSideBar() {
@@ -100,12 +101,13 @@ function DatingMainSideBar() {
             </>
           ))}
         </div>
-        <div className="2xl:flex 2xl:flex-col 2xl:items-center 2xl:pt-14 xl:flex xl:flex-col xl:items-center xl:pt-14 lg:pt-4 md:pt-8 sm:pt-10 xs:pt-10 xs:flex xs:items-center xs:justify-around">
-          <MdSettings className="feedsidebaricons transition ease-in-out delay-110 hover:text-blue-700" />
-          <MdOutlineEmail className="feedsidebaricons transition ease-in-out delay-110 hover:text-blue-700" />
+        <div className="xl:flex xl:flex-col xl:items-center xl:pt-14 lg:pt-4 md:pt-8 sm:pt-10 xs:pt-10 xs:flex xs:items-center xs:justify-around">
           <Link to="/feed">
             <BiHome className="feedsidebaricons transition ease-in-out delay-110  hover:text-blue-700" />
           </Link>
+          <BsPeople className="feedsidebaricons transition ease-in-out delay-110  hover:text-blue-700" />
+          <MdOutlineEmail className="feedsidebaricons transition ease-in-out delay-110 hover:text-blue-700" />
+          <MdSettings className="feedsidebaricons transition ease-in-out delay-110 hover:text-blue-700" />
         </div>
         <div className="inset-x-0 bottom-0 flex absolute justify-center pb-3">
           <h3 className="hidden xl:block text-sm font-medium text-gray-900 dark:text-white ">
