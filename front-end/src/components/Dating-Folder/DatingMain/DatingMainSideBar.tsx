@@ -1,6 +1,7 @@
 import "./DatingMainSideBar.css";
 import DatingMessages from "../DatingMessages";
 import { MdOutlineEmail } from "react-icons/md";
+import { MdPeopleOutline } from "react-icons/md";
 import { BiHome } from "react-icons/bi";
 import { BsPeople } from "react-icons/bs";
 import { Link } from "react-router-dom";
@@ -100,12 +101,18 @@ function DatingMainSideBar() {
             </>
           ))}
         </div>
-        <div className="xl:flex xl:flex-col xl:items-center xl:pt-14 lg:pt-4 md:pt-8 sm:pt-10 xs:pt-10 xs:flex xs:items-center xs:justify-around">
+        <div className="xl:gap-y-20 xl:flex xl:flex-col xl:items-center xl:pt-14 lg:pt-4 md:pt-8 sm:pt-10 sm:justify-around sm:flex-row xs:pt-10 xs:flex xs:items-center  xs:flex-col xs:gap-y-4 ">
           <Link to="/feed">
-            <BiHome className="feedsidebaricons transition ease-in-out delay-110  hover:text-blue-700" />
+            <button className="xl:px-28 xl:py-1 md:p-2 sm:p-2 sm:hover:text-black sm:hover:bg-gray-200 transition ease-in-out delay-110 rounded-full cursor-pointer text-gray-500">
+              <BiHome className="feedsidebaricons" />
+            </button>
           </Link>
-          <BsPeople className="feedsidebaricons transition ease-in-out delay-110  hover:text-blue-700" />
-          <MdOutlineEmail className="feedsidebaricons transition ease-in-out delay-110  hover:text-blue-700" />
+          <button className="xl:px-28 xl:py-1 md:p-2  sm:p-2 sm:hover:text-black sm:hover:bg-gray-200 transition ease-in-out delay-110 rounded-full cursor-pointer text-gray-500">
+            <MdPeopleOutline className="feedsidebaricons" />
+          </button>
+          <button className="xl:px-28 xl:py-1 md:p-2  sm:p-2 sm:hover:text-black sm:hover:bg-gray-200 transition ease-in-out delay-110 rounded-full cursor-pointer text-gray-500">
+            <MdOutlineEmail className="feedsidebaricons" />
+          </button>
         </div>
         <div className="inset-x-0 bottom-0 flex absolute justify-center pb-3">
           <h3 className="hidden xl:block text-sm font-medium text-gray-900 dark:text-white ">

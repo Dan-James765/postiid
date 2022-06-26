@@ -4,6 +4,7 @@ import { MdUpgrade } from "react-icons/md";
 import { FiSettings } from "react-icons/fi";
 import { FiLogOut } from "react-icons/fi";
 import { FaQuestion } from "react-icons/fa";
+import "./DatingEditProfile.css";
 
 function DatingEditProfile() {
   const posts = [
@@ -22,7 +23,7 @@ function DatingEditProfile() {
         <div>
           {posts.map((mapper) => (
             <>
-              <div className="flex items-center md:flex md:justify-center sm:flex sm:justify-center xs:flex xs:justify-center gap-x-2 pl-1">
+              <div className="flex items-center md:flex md:justify-center sm:flex sm:justify-center xs:flex xs:justify-center gap-x-2 pb-2">
                 <Link to="/dating/main">
                   <img
                     src={mapper.userImg}
@@ -38,7 +39,7 @@ function DatingEditProfile() {
           ))}
         </div>
         <div className="flex flex-col xl:gap-y-6 xl:text-lg lg:text-xs lg:gap-y-6 items-center">
-          <button className="hidden lg:block hover:bg-gray-100 hover:text-black text-gray-500 font-semibold py-2 px-6 rounded-full">
+          <button className="hidden lg:block hover:bg-gray-100 hover:text-black text-gray-500 font-semibold py-2 px-4 rounded-full">
             Upgrade to postiiD Premium{" "}
           </button>
           <button className=" hidden lg:block hover:bg-gray-100  hover:text-black   text-gray-500 font-semibold py-2 px-6 rounded-full">
@@ -55,18 +56,14 @@ function DatingEditProfile() {
             Log Out
           </button>
         </div>
-        <div className="flex flex-col items-center gap-y-16 text-3xl text-gray-500">
-          <MdUpgrade className="lg:hidden sm:flex cursor-pointer" />
+        <div className="flex flex-col items-center gap-y-16 text-2xl text-gray-500">
+          <button className="selectedButton">
+            <MdUpgrade className="lg:hidden sm:flex cursor-pointer " />
+          </button>
           <FaUserEdit className="lg:hidden sm:flex cursor-pointer" />
           <FiSettings className="lg:hidden sm:flex cursor-pointer" />
           <FaQuestion className="lg:hidden sm:flex cursor-pointer" />
           <FiLogOut className="lg:hidden sm:flex cursor-pointer" />
-        </div>
-
-        <div className="inset-x-0 bottom-0 flex absolute justify-center pb-3">
-          <h3 className="hidden lg:block text-sm font-medium text-gray-900 dark:text-white ">
-            postiiD
-          </h3>
         </div>
       </div>
     </>

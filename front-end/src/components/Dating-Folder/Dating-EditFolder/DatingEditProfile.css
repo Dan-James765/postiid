@@ -1,0 +1,4 @@
+.selectedButton::selection {
+  background: #fff;
+  color: #ff0000;
+}

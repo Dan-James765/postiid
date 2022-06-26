@@ -8,8 +8,8 @@ import DatingLogin from "../components/Dating-Folder/Dating-Reg/DatingLogin";
 import DatingAboutMe from "../components/Dating-Folder/Dating-Reg/DatingAboutMe";
 import DatingMainContainer from "../components/Dating-Folder/DatingMain/DatingMainContainer";
 import DatingAboutPostiid from "../components/Dating-Folder/Dating-Reg/DatingAboutPostiid";
-import DatingEditProfile from "../components/Dating-Folder/DatingEditProfile";
-import DatingEditContainer from "../components/Dating-Folder/DatingEditContainer";
+import DatingEditProfile from "../components/Dating-Folder/Dating-EditFolder/DatingEditProfile";
+import DatingEditContainer from "../components/Dating-Folder/Dating-EditFolder/DatingEditContainer";
 
 function AllRoutes() {
   return (
