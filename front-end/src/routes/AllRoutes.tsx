@@ -8,9 +8,9 @@ import DatingLogin from "../components/Dating-Folder/Dating-Reg/DatingLogin";
 import DatingAboutMe from "../components/Dating-Folder/Dating-Reg/DatingAboutMe";
 import DatingMainContainer from "../components/Dating-Folder/DatingMain/DatingMainContainer";
 import DatingAboutPostiid from "../components/Dating-Folder/Dating-Reg/DatingAboutPostiid";
-import DatingEditProfile from "../components/Dating-Folder/Dating-EditFolder/DatingEditProfile";
 import DatingEditContainer from "../components/Dating-Folder/Dating-EditFolder/DatingEditContainer";
-import FeedSettingsContainer from "../components/Feeds-Folder/FeedSettingsContainer";
+import FeedEditProfileSettingsContainer from "../components/Feeds-Folder/Feed-Settings-Folder/FeedEditProfileSettingsContainer";
+import FeedChangePasswordSettingsContainer from "../components/Feeds-Folder/Feed-Settings-Folder/FeedChangePasswordSettingsContainer";
 
 function AllRoutes() {
   return (
@@ -44,10 +44,26 @@ function AllRoutes() {
             }
           />
           <Route
-            path="/feed/settings"
+            path="/feed/settings/edit-profile"
             element={
               <>
-                <FeedSettingsContainer />
+                <FeedEditProfileSettingsContainer />
+              </>
+            }
+          />
+          <Route
+            path="/feed/settings/edit-profile"
+            element={
+              <>
+                <FeedEditProfileSettingsContainer />
+              </>
+            }
+          />
+          <Route
+            path="/feed/settings/change-password"
+            element={
+              <>
+                <FeedChangePasswordSettingsContainer />
               </>
             }
           />

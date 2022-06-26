@@ -100,7 +100,7 @@ function DatingMainSideBar() {
             </>
           ))}
         </div>
-        <div className="xl:gap-y-20 xl:flex xl:flex-col xl:items-center xl:pt-14 lg:pt-4 md:pt-8 sm:pt-10 sm:justify-around sm:flex-row xs:pt-10 xs:flex xs:items-center  xs:flex-col xs:gap-y-4 ">
+        <div className="xl:gap-y-20 xl:flex xl:flex-col xl:items-center xl:pt-14 lg:pt-4 md:pt-8 sm:pt-10 sm:justify-around sm:flex-row xs:pt-2 xs:flex xs:items-center  xs:flex-col xs:gap-y-4 ">
           <Link to="/feed">
             <button className="xl:px-28 xl:py-1 md:p-2 sm:p-2 sm:hover:text-black sm:hover:bg-gray-200 transition ease-in-out delay-110 rounded-full cursor-pointer text-gray-500">
               <BiHome className="feedsidebaricons" />

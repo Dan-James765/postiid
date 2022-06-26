@@ -45,7 +45,6 @@ function DatingEditProfile() {
           <button className=" hidden lg:block hover:bg-gray-100  hover:text-black   text-gray-500 font-semibold py-2 px-6 rounded-full">
             Edit Profile
           </button>
-
           <button className=" hidden lg:block hover:bg-gray-100 hover:text-black   text-gray-500 font-semibold py-2 px-6 rounded-full">
             Settings
           </button>
@@ -56,7 +55,7 @@ function DatingEditProfile() {
             Log Out
           </button>
         </div>
-        <div className="flex flex-col items-center gap-y-16 text-2xl text-gray-500">
+        <div className="flex flex-col items-center gap-y-9 text-2xl text-gray-500">
           <button className="selectedButton">
             <MdUpgrade className="lg:hidden sm:flex cursor-pointer " />
           </button>

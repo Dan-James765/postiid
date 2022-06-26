@@ -34,7 +34,7 @@ function FeedSideBar() {
           <button className="xl:px-28 xl:py-1 md:p-2 sm:p-2 sm:hover:text-black sm:hover:bg-gray-200 transition ease-in-out delay-110 rounded-full cursor-pointer text-gray-500">
             <MdOutlineEmail className="feedsidebaricons " />
           </button>
-          <Link to="/feed/settings">
+          <Link to="/feed/settings/edit-profile">
             <button className="xl:px-28 xl:py-1 md:p-2 sm:p-2 sm:hover:text-black sm:hover:bg-gray-200 transition ease-in-out delay-110 rounded-full cursor-pointer text-gray-500">
               <MdSettings className="feedsidebaricons " />
             </button>
