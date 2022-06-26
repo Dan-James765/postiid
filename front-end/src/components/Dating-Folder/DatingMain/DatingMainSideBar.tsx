@@ -73,7 +73,7 @@ function DatingMainSideBar() {
           {posts.map((mapper) => (
             <>
               <div className="flex items-center md:flex md:justify-center sm:flex sm:justify-center xs:flex xs:justify-center gap-x-2 pl-1">
-                <Link to="/dating-profile">
+                <Link to="/dating/main/edit-profile">
                   <img
                     src={mapper.userImg}
                     alt=""
