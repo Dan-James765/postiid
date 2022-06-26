@@ -4,10 +4,10 @@ import LoginPage from "../components/Login-SignUpFolders/Login-Folder/Login-Page
 import SignUpPage from "../components/Login-SignUpFolders/Sign-Up-Folder/SignUpPage";
 import FeedContainer from "../components/Feeds-Folder/FeedContainer";
 import Header from "../components/Headers-Folder/Header";
-import DatingLogin from "../components/Dating-Folder/DatingLogin";
-import DatingAboutMe from "../components/Dating-Folder/DatingAboutMe";
-import DatingMainContainer from "../components/Dating-Folder/DatingMainContainer";
-import DatingAboutPostiid from "../components/Dating-Folder/DatingAboutPostiid";
+import DatingLogin from "../components/Dating-Folder/Dating-Reg/DatingLogin";
+import DatingAboutMe from "../components/Dating-Folder/Dating-Reg/DatingAboutMe";
+import DatingMainContainer from "../components/Dating-Folder/DatingMain/DatingMainContainer";
+import DatingAboutPostiid from "../components/Dating-Folder/Dating-Reg/DatingAboutPostiid";
 
 function AllRoutes() {
   return (

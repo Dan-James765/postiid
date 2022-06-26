@@ -1,6 +1,8 @@
+// import { useEffect } from "react";
 import { useState } from "react";
 import TinderCard from "react-tinder-card";
-import DatingMainButtons from "./DatingMainButtons";
+// import database from "../../firebase/firebase"
+import DatingMainButtons from "./DatingMain/DatingMainButtons";
 
 function DatingCard() {
   const [people, setPeople] = useState([

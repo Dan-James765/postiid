@@ -1,6 +1,5 @@
 import "./DatingMainSideBar.css";
-import DatingMessages from "./DatingMessages";
-import { MdSettings } from "react-icons/md";
+import DatingMessages from "../DatingMessages";
 import { MdOutlineEmail } from "react-icons/md";
 import { BiHome } from "react-icons/bi";
 import { BsPeople } from "react-icons/bs";
@@ -107,7 +106,6 @@ function DatingMainSideBar() {
           </Link>
           <BsPeople className="feedsidebaricons transition ease-in-out delay-110  hover:text-blue-700" />
           <MdOutlineEmail className="feedsidebaricons transition ease-in-out delay-110  hover:text-blue-700" />
-          <MdSettings className="feedsidebaricons transition ease-in-out delay-110 hover:text-blue-700" />
         </div>
         <div className="inset-x-0 bottom-0 flex absolute justify-center pb-3">
           <h3 className="hidden xl:block text-sm font-medium text-gray-900 dark:text-white ">

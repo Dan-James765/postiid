@@ -1,4 +1,4 @@
-import DatingCard from "./DatingCard";
+import DatingCard from "../DatingCard";
 import "./DatingMainBody.css";
 
 function DatingMainBody() {
