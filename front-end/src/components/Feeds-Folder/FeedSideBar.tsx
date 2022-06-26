@@ -4,7 +4,6 @@ import { MdOutlineEmail } from "react-icons/md";
 import { MdSettings } from "react-icons/md";
 import { SiTinder } from "react-icons/si";
 import { Link } from "react-router-dom";
-
 import "./FeedSideBar.css";
 
 function FeedSideBar() {
@@ -19,25 +18,27 @@ function FeedSideBar() {
               className="cursor-pointer rounded-full h-8 w-8 object-contain xl:h-12 xl:w-12"
             />
           </Link>
-
           <Link to="/dating/registration">
             <button className="xl:px-28 xl:py-1 md:p-2 sm:p-2 sm:hover:text-black sm:hover:bg-gray-200 transition ease-in-out delay-110 rounded-full cursor-pointer text-gray-500">
               <SiTinder className="feedsidebaricons" />
             </button>
           </Link>
-          <button className="xl:px-28 xl:py-1 sm:p-2  sm:hover:text-black sm:hover:bg-gray-200 transition ease-in-out delay-110 rounded-full cursor-pointer text-gray-500">
-            <BiHome className="feedsidebaricons" />
-          </button>
-
+          <Link to="/feed">
+            <button className="xl:px-28 xl:py-1 sm:p-2  sm:hover:text-black sm:hover:bg-gray-200 transition ease-in-out delay-110 rounded-full cursor-pointer text-gray-500">
+              <BiHome className="feedsidebaricons" />
+            </button>
+          </Link>
           <button className="xl:px-28 xl:py-1 md:p-2 sm:p-2 sm:hover:text-black sm:hover:bg-gray-200 transition ease-in-out delay-110 rounded-full cursor-pointer text-gray-500">
             <MdPeopleOutline className="feedsidebaricons  " />
           </button>
           <button className="xl:px-28 xl:py-1 md:p-2 sm:p-2 sm:hover:text-black sm:hover:bg-gray-200 transition ease-in-out delay-110 rounded-full cursor-pointer text-gray-500">
             <MdOutlineEmail className="feedsidebaricons " />
           </button>
-          <button className="xl:px-28 xl:py-1 md:p-2 sm:p-2 sm:hover:text-black sm:hover:bg-gray-200 transition ease-in-out delay-110 rounded-full cursor-pointer text-gray-500">
-            <MdSettings className="feedsidebaricons " />
-          </button>
+          <Link to="/feed/settings">
+            <button className="xl:px-28 xl:py-1 md:p-2 sm:p-2 sm:hover:text-black sm:hover:bg-gray-200 transition ease-in-out delay-110 rounded-full cursor-pointer text-gray-500">
+              <MdSettings className="feedsidebaricons " />
+            </button>
+          </Link>
         </div>
         <div className="flex flex-col items-center">
           <button

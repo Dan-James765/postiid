@@ -3,7 +3,6 @@ import DatingMessages from "../DatingMessages";
 import { MdOutlineEmail } from "react-icons/md";
 import { MdPeopleOutline } from "react-icons/md";
 import { BiHome } from "react-icons/bi";
-import { BsPeople } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
 function DatingMainSideBar() {

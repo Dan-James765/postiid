@@ -10,6 +10,7 @@ import DatingMainContainer from "../components/Dating-Folder/DatingMain/DatingMa
 import DatingAboutPostiid from "../components/Dating-Folder/Dating-Reg/DatingAboutPostiid";
 import DatingEditProfile from "../components/Dating-Folder/Dating-EditFolder/DatingEditProfile";
 import DatingEditContainer from "../components/Dating-Folder/Dating-EditFolder/DatingEditContainer";
+import FeedSettingsContainer from "../components/Feeds-Folder/FeedSettingsContainer";
 
 function AllRoutes() {
   return (
@@ -39,6 +40,14 @@ function AllRoutes() {
             element={
               <>
                 <FeedContainer />
+              </>
+            }
+          />
+          <Route
+            path="/feed/settings"
+            element={
+              <>
+                <FeedSettingsContainer />
               </>
             }
           />
