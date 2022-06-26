@@ -11,6 +11,8 @@ import DatingAboutPostiid from "../components/Dating-Folder/Dating-Reg/DatingAbo
 import DatingEditContainer from "../components/Dating-Folder/Dating-EditFolder/DatingEditContainer";
 import FeedEditProfileSettingsContainer from "../components/Feeds-Folder/Feed-Settings-Folder/FeedEditProfileSettingsContainer";
 import FeedChangePasswordSettingsContainer from "../components/Feeds-Folder/Feed-Settings-Folder/FeedChangePasswordSettingsContainer";
+import FeedDeleteAccountSettingsContainer from "../components/Feeds-Folder/Feed-Settings-Folder/FeedDeleteAccountSettingsContainer";
+import FeedLogOutSettingsContainer from "../components/Feeds-Folder/Feed-Settings-Folder/FeedLogOutSettingsContainer";
 
 function AllRoutes() {
   return (
@@ -64,6 +66,22 @@ function AllRoutes() {
             element={
               <>
                 <FeedChangePasswordSettingsContainer />
+              </>
+            }
+          />
+          <Route
+            path="/feed/settings/delete-account"
+            element={
+              <>
+                <FeedDeleteAccountSettingsContainer />
+              </>
+            }
+          />
+          <Route
+            path="/feed/settings/log-out"
+            element={
+              <>
+                <FeedLogOutSettingsContainer />
               </>
             }
           />

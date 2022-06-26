@@ -21,12 +21,16 @@ function FeedSettingsMain() {
                 Change Password
               </button>
             </Link>
-            <button className=" hidden lg:block hover:bg-gray-100 hover:text-black   text-gray-500 font-semibold py-2 px-6 rounded-full">
-              Delete Account
-            </button>
-            <button className=" hidden lg:block hover:bg-gray-100  hover:text-black  text-gray-500 font-semibold py-2 px-6 rounded-full">
-              Log Out
-            </button>
+            <Link to="/feed/settings/delete-account">
+              <button className=" hidden lg:block hover:bg-gray-100 hover:text-black   text-gray-500 font-semibold py-2 px-6 rounded-full">
+                Delete Account
+              </button>
+            </Link>
+            <Link to="/feed/settings/log-out">
+              <button className=" hidden lg:block hover:bg-gray-100  hover:text-black  text-gray-500 font-semibold py-2 px-6 rounded-full">
+                Log Out
+              </button>
+            </Link>
           </div>
           <div className="flex flex-col items-center gap-y-16 text-2xl text-gray-500">
             <Link to="/feed/settings/edit-profile">
@@ -35,8 +39,12 @@ function FeedSettingsMain() {
             <Link to="/feed/settings/change-password">
               <RiLockPasswordLine className="lg:hidden sm:flex cursor-pointer" />
             </Link>
-            <AiOutlineDelete className="lg:hidden sm:flex cursor-pointer" />
-            <FiLogOut className="lg:hidden sm:flex cursor-pointer" />
+            <Link to="/feed/settings/delete-account">
+              <AiOutlineDelete className="lg:hidden sm:flex cursor-pointer" />
+            </Link>
+            <Link to="/feed/settings/log-out">
+              <FiLogOut className="lg:hidden sm:flex cursor-pointer" />
+            </Link>
           </div>
         </div>
       </div>
