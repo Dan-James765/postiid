@@ -10,7 +10,6 @@ import DatingEditProfileContainer from "../components/Dating-Folder/Dating-Setti
 import DatingSettingsContainer from "../components/Dating-Folder/Dating-SettingsFolder/DatingSettingsContainer";
 import DatingContactContainer from "../components/Dating-Folder/Dating-SettingsFolder/DatingContactContainer";
 import FeedEditProfileSettingsContainer from "../components/Feeds-Folder/Feed-Settings-Folder/FeedEditProfileSettingsContainer";
-import FeedChangePasswordSettingsContainer from "../components/Feeds-Folder/Feed-Settings-Folder/FeedChangePasswordSettingsContainer";
 import FeedDeleteAccountSettingsContainer from "../components/Feeds-Folder/Feed-Settings-Folder/FeedDeleteAccountSettingsContainer";
 import FeedLogOutSettingsContainer from "../components/Feeds-Folder/Feed-Settings-Folder/FeedLogOutSettingsContainer";
 import FeedContainer from "../components/Feeds-Folder/Feed-Main-Folder/FeedContainer";
@@ -55,22 +54,7 @@ function AllRoutes() {
               </>
             }
           />
-          <Route
-            path="/feed/settings/edit-profile"
-            element={
-              <>
-                <FeedEditProfileSettingsContainer />
-              </>
-            }
-          />
-          <Route
-            path="/feed/settings/change-password"
-            element={
-              <>
-                <FeedChangePasswordSettingsContainer />
-              </>
-            }
-          />
+
           <Route
             path="/feed/settings/delete-account"
             element={

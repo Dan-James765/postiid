@@ -17,11 +17,6 @@ function FeedSettingsMain() {
                 Edit Profile{" "}
               </button>
             </Link>
-            <Link to="/feed/settings/change-password">
-              <button className=" hidden lg:block hover:bg-gray-100  hover:text-black   text-gray-500 font-semibold py-2 px-6 rounded-full">
-                Change Password
-              </button>
-            </Link>
             <Link to="/feed/settings/delete-account">
               <button className=" hidden lg:block hover:bg-gray-100 hover:text-black   text-gray-500 font-semibold py-2 px-6 rounded-full">
                 Delete Account
@@ -44,11 +39,7 @@ function FeedSettingsMain() {
                 <FaUserEdit className="lg:hidden sm:flex cursor-pointer" />
               </Link>
             </button>
-            <button>
-              <Link to="/feed/settings/change-password">
-                <RiLockPasswordLine className="lg:hidden sm:flex cursor-pointer" />
-              </Link>
-            </button>
+
             <button>
               <Link to="/feed/settings/delete-account">
                 <AiOutlineDelete className="lg:hidden sm:flex cursor-pointer" />
