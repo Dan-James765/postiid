@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import ErrorPage from "../components/Login-SignUpFolders/ErrorPage-Folder/ErrorPage";
 import LoginPage from "../components/Login-SignUpFolders/Login-Folder/Login-Page";
 import SignUpPage from "../components/Login-SignUpFolders/Sign-Up-Folder/SignUpPage";
-import FeedContainer from "../components/Feeds-Folder/FeedContainer";
 import Header from "../components/Headers-Folder/Header";
 import DatingLogin from "../components/Dating-Folder/Dating-Reg/DatingLogin";
 import DatingAboutMe from "../components/Dating-Folder/Dating-Reg/DatingAboutMe";
@@ -13,6 +12,7 @@ import FeedEditProfileSettingsContainer from "../components/Feeds-Folder/Feed-Se
 import FeedChangePasswordSettingsContainer from "../components/Feeds-Folder/Feed-Settings-Folder/FeedChangePasswordSettingsContainer";
 import FeedDeleteAccountSettingsContainer from "../components/Feeds-Folder/Feed-Settings-Folder/FeedDeleteAccountSettingsContainer";
 import FeedLogOutSettingsContainer from "../components/Feeds-Folder/Feed-Settings-Folder/FeedLogOutSettingsContainer";
+import FeedContainer from "../components/Feeds-Folder/Feed-Main-Folder/FeedContainer";
 
 function AllRoutes() {
   return (

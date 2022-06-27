@@ -1,12 +1,12 @@
 import FeedSettingsMain from "./FeedSettingsMain";
-import FeedSideBar from "../FeedSideBar";
 import FeedSettingChangePassword from "./FeedSettingChangePassword";
+import FeedSettingsSideBar from "./FeedSettingsSideBar";
 
 function FeedChangePasswordSettingsContainer() {
   return (
     <>
       <div className="flex">
-        <FeedSideBar />
+        <FeedSettingsSideBar />
         <FeedSettingsMain />
         <FeedSettingChangePassword />
       </div>

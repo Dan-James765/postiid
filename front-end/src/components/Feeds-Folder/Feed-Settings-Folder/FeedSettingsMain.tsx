@@ -3,6 +3,7 @@ import { FaUserEdit } from "react-icons/fa";
 import { RiLockPasswordLine } from "react-icons/ri";
 import { AiOutlineDelete } from "react-icons/ai";
 import { FiLogOut } from "react-icons/fi";
+import { BiHome } from "react-icons/bi";
 import { Link } from "react-router-dom";
 
 function FeedSettingsMain() {
@@ -32,7 +33,10 @@ function FeedSettingsMain() {
               </button>
             </Link>
           </div>
-          <div className="flex flex-col items-center gap-y-16 text-2xl text-gray-500">
+          <div className="flex flex-col items-center gap-y-10 text-2xl text-gray-500">
+            <Link to="/feed">
+              <BiHome className="lg:hidden sm:flex cursor-pointer" />
+            </Link>
             <Link to="/feed/settings/edit-profile">
               <FaUserEdit className="lg:hidden sm:flex cursor-pointer" />
             </Link>

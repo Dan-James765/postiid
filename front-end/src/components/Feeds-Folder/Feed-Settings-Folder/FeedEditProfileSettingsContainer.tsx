@@ -1,12 +1,12 @@
 import FeedSettingsMain from "./FeedSettingsMain";
-import FeedSideBar from "../FeedSideBar";
 import FeedSettingsEditProfile from "./FeedSettingsEditProfile";
+import FeedSettingsSideBar from "./FeedSettingsSideBar";
 
 function FeedEditProfileSettingsContainer() {
   return (
     <>
       <div className="flex">
-        <FeedSideBar />
+        <FeedSettingsSideBar />
         <FeedSettingsMain />
         <FeedSettingsEditProfile />
       </div>

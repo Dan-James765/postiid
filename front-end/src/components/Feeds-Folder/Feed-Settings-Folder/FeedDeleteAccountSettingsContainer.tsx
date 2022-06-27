@@ -1,12 +1,12 @@
 import FeedSettingsMain from "./FeedSettingsMain";
-import FeedSideBar from "../FeedSideBar";
 import FeedSettingsDeleteAccount from "./FeedSettingsDeleteAccount";
+import FeedSettingsSideBar from "./FeedSettingsSideBar";
 
 function FeedDeleteAccountSettingsContainer() {
   return (
     <>
       <div className="flex">
-        <FeedSideBar />
+        <FeedSettingsSideBar />
         <FeedSettingsMain />
         <FeedSettingsDeleteAccount />
       </div>

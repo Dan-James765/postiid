@@ -1,5 +1,5 @@
 import "./DatingMainSideBar.css";
-import DatingMessages from "../DatingMessages";
+import DatingMessages from "./DatingMessages";
 import { MdOutlineEmail } from "react-icons/md";
 import { MdPeopleOutline } from "react-icons/md";
 import { BiHome } from "react-icons/bi";

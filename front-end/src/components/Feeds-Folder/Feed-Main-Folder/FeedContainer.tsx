@@ -1,6 +1,6 @@
 import FeedMain from "./FeedMain";
-import FeedSideBar from "./FeedSideBar";
 import "./FeedContainer.css";
+import FeedSideBar from "../Feed-Sidebar/FeedSideBar";
 function FeedContainer() {
   return (
     <>
