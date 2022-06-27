@@ -1,0 +1,6 @@
+.datingmainsidebar__container {
+  flex: 0.2;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}

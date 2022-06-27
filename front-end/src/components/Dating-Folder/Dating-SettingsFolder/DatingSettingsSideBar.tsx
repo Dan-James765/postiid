@@ -4,9 +4,9 @@ import { MdUpgrade } from "react-icons/md";
 import { FiSettings } from "react-icons/fi";
 import { FiLogOut } from "react-icons/fi";
 import { FaQuestion } from "react-icons/fa";
-import "./DatingEditProfile.css";
+import "./DatingSettingsSideBar.css";
 
-function DatingEditProfile() {
+function DatingSettingsSideBar() {
   const posts = [
     {
       id: "123",
@@ -38,29 +38,43 @@ function DatingEditProfile() {
             </>
           ))}
         </div>
-        <div className="flex flex-col xl:gap-y-6 xl:text-lg lg:text-xs lg:gap-y-6 items-center">
+        <div className="flex flex-col xl:gap-y-16 xl:text-lg  lg:text-xs lg:gap-y-4  items-center">
           <button className="hidden lg:block hover:bg-gray-100 hover:text-black text-gray-500 font-semibold py-2 px-4 rounded-full">
             Upgrade to postiiD Premium{" "}
           </button>
-          <button className=" hidden lg:block hover:bg-gray-100  hover:text-black   text-gray-500 font-semibold py-2 px-6 rounded-full">
-            Edit Profile
-          </button>
-          <button className=" hidden lg:block hover:bg-gray-100 hover:text-black   text-gray-500 font-semibold py-2 px-6 rounded-full">
-            Settings
-          </button>
-          <button className=" hidden lg:block hover:bg-gray-100  hover:text-black  text-gray-500 font-semibold py-2 px-6 rounded-full">
-            Contact & FAQs
-          </button>
-          <button className=" hidden lg:block hover:bg-gray-100  hover:text-black  text-gray-500 font-semibold py-2 px-6 rounded-full">
+          <Link to="/dating/main/settings/edit-profile">
+            <button className=" hidden lg:block hover:bg-gray-100  hover:text-black   text-gray-500 font-semibold py-2 px-6 rounded-full">
+              Edit Profile
+            </button>
+          </Link>
+          <Link to="/dating/main/settings/more-settings">
+            <button className=" hidden lg:block hover:bg-gray-100 hover:text-black   text-gray-500 font-semibold py-2 px-6 rounded-full">
+              Settings
+            </button>
+          </Link>
+          <Link to="/dating/main/settings/contact">
+            <button className=" hidden lg:block hover:bg-gray-100  hover:text-black  text-gray-500 font-semibold py-2 px-6 rounded-full">
+              Contact & FAQs
+            </button>
+          </Link>
+          <button className="hidden lg:block hover:bg-gray-100  hover:text-black  text-gray-500 font-semibold py-2 px-6 rounded-full">
             Log Out
           </button>
         </div>
         <div className="flex flex-col items-center gap-y-9 text-2xl text-gray-500">
-          <button className="selectedButton">
+          <button>
             <MdUpgrade className="lg:hidden sm:flex cursor-pointer " />
           </button>
-          <FaUserEdit className="lg:hidden sm:flex cursor-pointer" />
-          <FiSettings className="lg:hidden sm:flex cursor-pointer" />
+          <Link to="/dating/main/settings/edit-profile">
+            <button>
+              <FaUserEdit className="lg:hidden sm:flex cursor-pointer" />
+            </button>
+          </Link>
+          <Link to="/dating/main/settings/more-settings">
+            <button>
+              <FiSettings className="lg:hidden sm:flex cursor-pointer" />
+            </button>
+          </Link>
           <FaQuestion className="lg:hidden sm:flex cursor-pointer" />
           <FiLogOut className="lg:hidden sm:flex cursor-pointer" />
         </div>
@@ -69,4 +83,4 @@ function DatingEditProfile() {
   );
 }
 
-export default DatingEditProfile;
+export default DatingSettingsSideBar;

@@ -33,22 +33,32 @@ function FeedSettingsMain() {
               </button>
             </Link>
           </div>
-          <div className="flex flex-col items-center gap-y-10 text-2xl text-gray-500">
-            <Link to="/feed">
-              <BiHome className="lg:hidden sm:flex cursor-pointer" />
-            </Link>
-            <Link to="/feed/settings/edit-profile">
-              <FaUserEdit className="lg:hidden sm:flex cursor-pointer" />
-            </Link>
-            <Link to="/feed/settings/change-password">
-              <RiLockPasswordLine className="lg:hidden sm:flex cursor-pointer" />
-            </Link>
-            <Link to="/feed/settings/delete-account">
-              <AiOutlineDelete className="lg:hidden sm:flex cursor-pointer" />
-            </Link>
-            <Link to="/feed/settings/log-out">
-              <FiLogOut className="lg:hidden sm:flex cursor-pointer" />
-            </Link>
+          <div className="flex flex-col justify-center gap-y-10 text-2xl text-gray-500">
+            <button>
+              <Link to="/feed">
+                <BiHome className="lg:hidden sm:flex cursor-pointer" />
+              </Link>
+            </button>
+            <button>
+              <Link to="/feed/settings/edit-profile">
+                <FaUserEdit className="lg:hidden sm:flex cursor-pointer" />
+              </Link>
+            </button>
+            <button>
+              <Link to="/feed/settings/change-password">
+                <RiLockPasswordLine className="lg:hidden sm:flex cursor-pointer" />
+              </Link>
+            </button>
+            <button>
+              <Link to="/feed/settings/delete-account">
+                <AiOutlineDelete className="lg:hidden sm:flex cursor-pointer" />
+              </Link>
+            </button>
+            <button>
+              <Link to="/feed/settings/log-out">
+                <FiLogOut className="lg:hidden sm:flex cursor-pointer" />
+              </Link>
+            </button>
           </div>
         </div>
       </div>
