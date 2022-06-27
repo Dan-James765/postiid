@@ -75,7 +75,11 @@ function DatingSettingsSideBar() {
               <FiSettings className="lg:hidden sm:flex cursor-pointer" />
             </button>
           </Link>
-          <FaQuestion className="lg:hidden sm:flex cursor-pointer" />
+          <Link to="/dating/main/settings/contact">
+            <button>
+              <FaQuestion className="lg:hidden sm:flex cursor-pointer" />
+            </button>
+          </Link>
           <FiLogOut className="lg:hidden sm:flex cursor-pointer" />
         </div>
       </div>

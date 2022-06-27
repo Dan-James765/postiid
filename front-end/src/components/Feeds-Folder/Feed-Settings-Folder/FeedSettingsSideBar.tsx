@@ -9,7 +9,7 @@ import "./FeedSettingsSideBar.css";
 function FeedSettingsSideBar() {
   return (
     <>
-      <div className="feedsidebar__container border-r-[1px] border-gray-300 h-screen xs:hidden md:block">
+      <div className="feedsettingssidebar__container border-r-[1px] border-gray-300 h-screen xs:hidden md:block">
         <div className="flex flex-col items-center xl:gap-y-20 lg:gap-y-6 sm:gap-y-4 xs:gap-y-6  xl:items-center xl:pt-14 lg:pt-4 md:pt-8 sm:pt-10 sm:justify-around xs:pt-10 ">
           <Link to="/login">
             <img

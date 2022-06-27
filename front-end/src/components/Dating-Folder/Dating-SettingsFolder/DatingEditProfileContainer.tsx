@@ -1,3 +1,4 @@
+import DatingEditYourProfile from "./DatingEditYourProfile";
 import DatingSettingsSideBar from "./DatingSettingsSideBar";
 
 function DatingEditProfileContainer() {
@@ -5,6 +6,7 @@ function DatingEditProfileContainer() {
     <>
       <div className="flex">
         <DatingSettingsSideBar />
+        <DatingEditYourProfile />
       </div>
     </>
   );

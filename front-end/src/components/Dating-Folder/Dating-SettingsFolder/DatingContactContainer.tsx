@@ -1,3 +1,4 @@
+import DatingContact from "./DatingContact";
 import DatingSettingsSideBar from "./DatingSettingsSideBar";
 
 function DatingContactContainer() {
@@ -5,6 +6,7 @@ function DatingContactContainer() {
     <>
       <div className="flex">
         <DatingSettingsSideBar />
+        <DatingContact />
       </div>
     </>
   );
