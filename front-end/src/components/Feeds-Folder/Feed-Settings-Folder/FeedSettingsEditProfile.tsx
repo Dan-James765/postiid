@@ -21,7 +21,7 @@ function FeedSettingsEditProfile() {
           {postsArray.map((mapper) => (
             <>
               <div className="flex flex-col items-center xl:gap-y-20 gap-y-10">
-                <div className="flex mr-12">
+                <div className="flex">
                   <img
                     src={mapper.userImg}
                     alt=""
@@ -34,7 +34,7 @@ function FeedSettingsEditProfile() {
                     </span>
                   </h1>
                 </div>
-                <div className="flex gap-x-10">
+                <div className="flex">
                   <h1 className="">Bio</h1>
                   <textarea
                     id="text"
