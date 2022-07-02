@@ -1,3 +1,4 @@
+import { RiDivideLine } from "react-icons/ri";
 import "./FeedSettingsEditProfile.css";
 
 function FeedSettingsEditProfile() {
@@ -34,7 +35,7 @@ function FeedSettingsEditProfile() {
                     </span>
                   </h1>
                 </div>
-                <div className="flex">
+                <div className="flex ">
                   <h1 className="">Bio</h1>
                   <textarea
                     id="text"
@@ -42,31 +43,13 @@ function FeedSettingsEditProfile() {
                     placeholder={mapper.bio}
                   ></textarea>
                 </div>
-                <div className="flex items-center ">
+                <div className="flex ">
                   <h1 className="">Email</h1>
                   <input
-                    type="text"
-                    name="fullName"
-                    id="email"
-                    className="hover:bg-slate-100 cursor-pointer bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white focus:outline-gray-400"
-                    placeholder={mapper.email}
-                  />
-                </div>
-                <div className="flex items-center ">
-                  <h1 className="">Password</h1>
-                  <input
-                    type="password"
-                    name="password"
-                    id="password"
-                    className="hover:bg-slate-100 cursor-pointer bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white focus:outline-gray-400"
-                  />
-                </div>
-                <div className="pt-8 w-full">
-                  <button className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
-                    <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                      Submit
-                    </span>
-                  </button>
+                    id="text"
+                    className=" block p-2.5 h-36 w-full text-sm hover:bg-slate-100 cursor-pointer bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:ring-blue-500 focus:border-blue-500  dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white focus:outline-gray-400"
+                    placeholder={mapper.bio}
+                  ></input>
                 </div>
               </div>
             </>
